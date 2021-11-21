@@ -28,8 +28,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -42,8 +41,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -56,8 +54,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"contract DaiToken\",\"name\":\"_daiToken\",\"type\":\"address\"},{\"internalType\":\"contract DappToken\",\"name\":\"_dappToken\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"daiToken\",\"outputs\":[{\"internalType\":\"contract DaiToken\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"dappToken\",\"outputs\":[{\"internalType\":\"contract DappToken\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/src/contracts/TokenFarm.sol\":\"TokenFarm\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/src/contracts/DaiToken.sol\":{\"keccak256\":\"0xc5f50740fddbf1e0084bf2ae5635b6c68ec88bfee43994fea087b3f70b89120c\",\"urls\":[\"bzz-raw://793f5627be5ecf1d608c8ef006b5dd8b89bc547f1f206073622742ec14cd5b5f\",\"dweb:/ipfs/QmbJuENQcfhFGyvVjWLkBv2G2Mg1qApaYPtfzkL6FfhJZu\"]},\"project:/src/contracts/DappToken.sol\":{\"keccak256\":\"0x7f891eb690ba90ffec0fda50c7b92b7c881b3327621fab909db311815410c5d3\",\"urls\":[\"bzz-raw://fe99f311943fde2dfcdd51175b457f13bc188d8738c72c16bc12700fef1ec12c\",\"dweb:/ipfs/Qmc15VyvNuuga46N8DT4aKVfpTMQ2xY68it2bTfVj2AAN3\"]},\"project:/src/contracts/TokenFarm.sol\":{\"keccak256\":\"0x9c70f137ab484e386361f0adf464095eb5a836c150a83322fd53ea9ff2427c1d\",\"urls\":[\"bzz-raw://dac0ccdfdb3e23f0798b926c75a9c23a276c2d47015e97365b031d0175ecf9da\",\"dweb:/ipfs/QmT44HXxkttELQ8SR95WApf1zRVbw6Fky4HbzuS9svpJrY\"]}},\"version\":1}",
@@ -3984,8 +3981,7 @@
     }
   },
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-11-21T12:47:26.821Z",
-  "networkType": "ethereum",
+  "updatedAt": "2021-11-21T19:31:53.074Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
