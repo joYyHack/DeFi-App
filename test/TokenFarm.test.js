@@ -94,4 +94,21 @@ contract('Token Farm', ([owner, investor]) => {
             assert.equal(tokenFarmBalance, tokens('100'), 'Token farm must has 100 DAI tokens');
         });
     })
+
+    describe('Issue Tokens', async () => {
+        it('Investor must has 100 dapp tokens', async () => {
+            await tokenFarm.issueTokens({ from: owner });
+            let investorDappBalance = (await dappToken.balanceOf(investor)).toString();
+            assert.equal(investorDappBalance, tokens('100'), 'Investor must has 100 dapp tokens');
+        });
+
+        it('Token farm must has 999.900 DAPP tokens', async () => {
+            let tokenFarmBalance = (await dappToken.balanceOf(tokenFarm.address)).toString();
+            assert.equal(tokenFarmBalance, tokens('999900'), 'Token farm must has 999.900 DAPP tokens');
+        })
+
+        it('Only the owner can issue tokens', async () => {
+            await tokenFarm.issueTokens({from: investor}).should.be.rejected;
+        })
+    })
 })
