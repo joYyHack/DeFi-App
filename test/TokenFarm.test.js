@@ -78,10 +78,10 @@ contract('Token Farm', ([owner, investor]) => {
             assert.equal(updatedInvestorBalance, tokens('900'), 'Investor balance must be 900 dai tokens');
         });
 
-        it('Investor must has 100 DAPP tokens after staking', async () => {
-            //check investor balance of dapp tokens after staking
+        it('Investor staking balance must be 100', async () => {
+            //check investor balance staking balance after staking
             let investorBalanceOfDappTokens = (await tokenFarm.stakersBalances(investor)).toString();
-            assert.equal(investorBalanceOfDappTokens, tokens('100'), 'Investor must has 100 dapp tokens (value is taken from mapping1)');
+            assert.equal(investorBalanceOfDappTokens, tokens('100'), 'Investor staking balance must be 100');
         });
 
         it('Investor current status "is staking"', async () => {
