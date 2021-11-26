@@ -23,6 +23,8 @@ contract TokenFarm {
 
     //deposit
     function stakeTokens(uint256 _amount) public {
+        require(_amount > 0, "Amount must be greater than 0");
+
         //transfer dai tokens to token farm
         daiToken.transferFrom(msg.sender, address(this), _amount);
 
@@ -46,9 +48,9 @@ contract TokenFarm {
 
         for (uint256 i = 0; i < stakers.length; i++) {
             address reciever = stakers[i];
-            uint balance = stakersBalances[reciever];
+            uint256 balance = stakersBalances[reciever];
 
-            if(balance > 0){
+            if (balance > 0) {
                 dappToken.transfer(reciever, balance);
             }
         }
