@@ -4471,9 +4471,7 @@
   "ast": {
     "absolutePath": "project:/src/contracts/DappToken.sol",
     "exportedSymbols": {
-      "DappToken": [
-        357
-      ]
+      "DappToken": [357]
     },
     "id": 358,
     "license": "UNLICENSED",
@@ -4481,11 +4479,7 @@
     "nodes": [
       {
         "id": 180,
-        "literals": [
-          "solidity",
-          "0.8",
-          ".10"
-        ],
+        "literals": ["solidity", "0.8", ".10"],
         "nodeType": "PragmaDirective",
         "src": "39:23:1"
       },
@@ -4497,9 +4491,7 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 357,
-        "linearizedBaseContracts": [
-          357
-        ],
+        "linearizedBaseContracts": [357],
         "name": "DappToken",
         "nameLocation": "75:9:1",
         "nodeType": "ContractDefinition",
@@ -5211,10 +5203,7 @@
                       "id": 238,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "816:7:1",
                       "typeDescriptions": {
@@ -6057,10 +6046,7 @@
                       "id": 309,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "1351:7:1",
                       "typeDescriptions": {
@@ -6193,10 +6179,7 @@
                       "id": 317,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "1397:7:1",
                       "typeDescriptions": {
@@ -6710,9 +6693,7 @@
   "legacyAST": {
     "absolutePath": "project:/src/contracts/DappToken.sol",
     "exportedSymbols": {
-      "DappToken": [
-        357
-      ]
+      "DappToken": [357]
     },
     "id": 358,
     "license": "UNLICENSED",
@@ -6720,11 +6701,7 @@
     "nodes": [
       {
         "id": 180,
-        "literals": [
-          "solidity",
-          "0.8",
-          ".10"
-        ],
+        "literals": ["solidity", "0.8", ".10"],
         "nodeType": "PragmaDirective",
         "src": "39:23:1"
       },
@@ -6736,9 +6713,7 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 357,
-        "linearizedBaseContracts": [
-          357
-        ],
+        "linearizedBaseContracts": [357],
         "name": "DappToken",
         "nameLocation": "75:9:1",
         "nodeType": "ContractDefinition",
@@ -7450,10 +7425,7 @@
                       "id": 238,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "816:7:1",
                       "typeDescriptions": {
@@ -8296,10 +8268,7 @@
                       "id": 309,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "1351:7:1",
                       "typeDescriptions": {
@@ -8432,10 +8401,7 @@
                       "id": 317,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "1397:7:1",
                       "typeDescriptions": {

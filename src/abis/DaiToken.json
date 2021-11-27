@@ -4471,9 +4471,7 @@
   "ast": {
     "absolutePath": "project:/src/contracts/DaiToken.sol",
     "exportedSymbols": {
-      "DaiToken": [
-        178
-      ]
+      "DaiToken": [178]
     },
     "id": 179,
     "license": "UNLICENSED",
@@ -4481,11 +4479,7 @@
     "nodes": [
       {
         "id": 1,
-        "literals": [
-          "solidity",
-          "0.8",
-          ".10"
-        ],
+        "literals": ["solidity", "0.8", ".10"],
         "nodeType": "PragmaDirective",
         "src": "39:23:0"
       },
@@ -4497,9 +4491,7 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 178,
-        "linearizedBaseContracts": [
-          178
-        ],
+        "linearizedBaseContracts": [178],
         "name": "DaiToken",
         "nameLocation": "75:8:0",
         "nodeType": "ContractDefinition",
@@ -5211,10 +5203,7 @@
                       "id": 59,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "819:7:0",
                       "typeDescriptions": {
@@ -6057,10 +6046,7 @@
                       "id": 130,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "1354:7:0",
                       "typeDescriptions": {
@@ -6193,10 +6179,7 @@
                       "id": 138,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "1400:7:0",
                       "typeDescriptions": {
@@ -6710,9 +6693,7 @@
   "legacyAST": {
     "absolutePath": "project:/src/contracts/DaiToken.sol",
     "exportedSymbols": {
-      "DaiToken": [
-        178
-      ]
+      "DaiToken": [178]
     },
     "id": 179,
     "license": "UNLICENSED",
@@ -6720,11 +6701,7 @@
     "nodes": [
       {
         "id": 1,
-        "literals": [
-          "solidity",
-          "0.8",
-          ".10"
-        ],
+        "literals": ["solidity", "0.8", ".10"],
         "nodeType": "PragmaDirective",
         "src": "39:23:0"
       },
@@ -6736,9 +6713,7 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 178,
-        "linearizedBaseContracts": [
-          178
-        ],
+        "linearizedBaseContracts": [178],
         "name": "DaiToken",
         "nameLocation": "75:8:0",
         "nodeType": "ContractDefinition",
@@ -7450,10 +7425,7 @@
                       "id": 59,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "819:7:0",
                       "typeDescriptions": {
@@ -8296,10 +8268,7 @@
                       "id": 130,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "1354:7:0",
                       "typeDescriptions": {
@@ -8432,10 +8401,7 @@
                       "id": 138,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "1400:7:0",
                       "typeDescriptions": {

@@ -6763,15 +6763,9 @@
   "ast": {
     "absolutePath": "project:/src/contracts/TokenFarm.sol",
     "exportedSymbols": {
-      "DaiToken": [
-        178
-      ],
-      "DappToken": [
-        357
-      ],
-      "TokenFarm": [
-        578
-      ]
+      "DaiToken": [178],
+      "DappToken": [357],
+      "TokenFarm": [578]
     },
     "id": 579,
     "license": "UNLICENSED",
@@ -6779,11 +6773,7 @@
     "nodes": [
       {
         "id": 417,
-        "literals": [
-          "solidity",
-          "0.8",
-          ".10"
-        ],
+        "literals": ["solidity", "0.8", ".10"],
         "nodeType": "PragmaDirective",
         "src": "39:23:3"
       },
@@ -6819,9 +6809,7 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 578,
-        "linearizedBaseContracts": [
-          578
-        ],
+        "linearizedBaseContracts": [578],
         "name": "TokenFarm",
         "nameLocation": "130:9:3",
         "nodeType": "ContractDefinition",
@@ -7479,10 +7467,7 @@
                       "id": 473,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "705:7:3",
                       "typeDescriptions": {
@@ -8232,10 +8217,7 @@
                       "id": 531,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "1222:7:3",
                       "typeDescriptions": {
@@ -8269,9 +8251,7 @@
                     "src": "1397:219:3",
                     "statements": [
                       {
-                        "assignments": [
-                          551
-                        ],
+                        "assignments": [551],
                         "declarations": [
                           {
                             "constant": false,
@@ -8344,9 +8324,7 @@
                         "src": "1412:29:3"
                       },
                       {
-                        "assignments": [
-                          557
-                        ],
+                        "assignments": [557],
                         "declarations": [
                           {
                             "constant": false,
@@ -8619,9 +8597,7 @@
                   },
                   "id": 575,
                   "initializationExpression": {
-                    "assignments": [
-                      540
-                    ],
+                    "assignments": [540],
                     "declarations": [
                       {
                         "constant": false,
@@ -8745,15 +8721,9 @@
   "legacyAST": {
     "absolutePath": "project:/src/contracts/TokenFarm.sol",
     "exportedSymbols": {
-      "DaiToken": [
-        178
-      ],
-      "DappToken": [
-        357
-      ],
-      "TokenFarm": [
-        578
-      ]
+      "DaiToken": [178],
+      "DappToken": [357],
+      "TokenFarm": [578]
     },
     "id": 579,
     "license": "UNLICENSED",
@@ -8761,11 +8731,7 @@
     "nodes": [
       {
         "id": 417,
-        "literals": [
-          "solidity",
-          "0.8",
-          ".10"
-        ],
+        "literals": ["solidity", "0.8", ".10"],
         "nodeType": "PragmaDirective",
         "src": "39:23:3"
       },
@@ -8801,9 +8767,7 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 578,
-        "linearizedBaseContracts": [
-          578
-        ],
+        "linearizedBaseContracts": [578],
         "name": "TokenFarm",
         "nameLocation": "130:9:3",
         "nodeType": "ContractDefinition",
@@ -9461,10 +9425,7 @@
                       "id": 473,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "705:7:3",
                       "typeDescriptions": {
@@ -10214,10 +10175,7 @@
                       "id": 531,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "1222:7:3",
                       "typeDescriptions": {
@@ -10251,9 +10209,7 @@
                     "src": "1397:219:3",
                     "statements": [
                       {
-                        "assignments": [
-                          551
-                        ],
+                        "assignments": [551],
                         "declarations": [
                           {
                             "constant": false,
@@ -10326,9 +10282,7 @@
                         "src": "1412:29:3"
                       },
                       {
-                        "assignments": [
-                          557
-                        ],
+                        "assignments": [557],
                         "declarations": [
                           {
                             "constant": false,
@@ -10601,9 +10555,7 @@
                   },
                   "id": 575,
                   "initializationExpression": {
-                    "assignments": [
-                      540
-                    ],
+                    "assignments": [540],
                     "declarations": [
                       {
                         "constant": false,

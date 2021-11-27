@@ -1413,9 +1413,7 @@
   "ast": {
     "absolutePath": "project:/src/contracts/Migrations.sol",
     "exportedSymbols": {
-      "Migrations": [
-        415
-      ]
+      "Migrations": [415]
     },
     "id": 416,
     "license": "UNLICENSED",
@@ -1423,11 +1421,7 @@
     "nodes": [
       {
         "id": 359,
-        "literals": [
-          "solidity",
-          "0.8",
-          ".10"
-        ],
+        "literals": ["solidity", "0.8", ".10"],
         "nodeType": "PragmaDirective",
         "src": "39:23:2"
       },
@@ -1439,9 +1433,7 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 415,
-        "linearizedBaseContracts": [
-          415
-        ],
+        "linearizedBaseContracts": [415],
         "name": "Migrations",
         "nameLocation": "75:10:2",
         "nodeType": "ContractDefinition",
@@ -1807,9 +1799,7 @@
               "src": "444:112:2",
               "statements": [
                 {
-                  "assignments": [
-                    402
-                  ],
+                  "assignments": [402],
                   "declarations": [
                     {
                       "constant": false,
@@ -2048,9 +2038,7 @@
   "legacyAST": {
     "absolutePath": "project:/src/contracts/Migrations.sol",
     "exportedSymbols": {
-      "Migrations": [
-        415
-      ]
+      "Migrations": [415]
     },
     "id": 416,
     "license": "UNLICENSED",
@@ -2058,11 +2046,7 @@
     "nodes": [
       {
         "id": 359,
-        "literals": [
-          "solidity",
-          "0.8",
-          ".10"
-        ],
+        "literals": ["solidity", "0.8", ".10"],
         "nodeType": "PragmaDirective",
         "src": "39:23:2"
       },
@@ -2074,9 +2058,7 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 415,
-        "linearizedBaseContracts": [
-          415
-        ],
+        "linearizedBaseContracts": [415],
         "name": "Migrations",
         "nameLocation": "75:10:2",
         "nodeType": "ContractDefinition",
@@ -2442,9 +2424,7 @@
               "src": "444:112:2",
               "statements": [
                 {
-                  "assignments": [
-                    402
-                  ],
+                  "assignments": [402],
                   "declarations": [
                     {
                       "constant": false,

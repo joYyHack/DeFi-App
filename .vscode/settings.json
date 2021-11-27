@@ -1,0 +1,4 @@
+{
+  "cSpell.enableFiletypes": ["solidity"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
