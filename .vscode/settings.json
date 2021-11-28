@@ -1,4 +1,7 @@
 {
   "cSpell.enableFiletypes": ["solidity"],
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+"editor.defaultFormatter": "esbenp.prettier-vscode",
+"cSpell.words": [
+    "stakers"
+]
 }
