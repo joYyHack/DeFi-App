@@ -11,6 +11,10 @@ function tokens(ether) {
   return web3.utils.toWei(ether);
 }
 
+function tokensFormatted(wei) {
+  return web3.utils.fromWei(wei);
+}
+
 contract("Token Farm", ([owner, investor]) => {
   let dappToken, daiToken, tokenFarm;
 
@@ -143,6 +147,61 @@ contract("Token Farm", ([owner, investor]) => {
 
     it("Only the owner can issue tokens", async () => {
       await tokenFarm.issueTokens({ from: investor }).should.be.rejected;
+    });
+  });
+
+  describe("Withdraw tokens", async () => {
+    it("Investor balance of dapp tokens must be 0", async () => {
+      let balanceForWithdrawing = (
+        await dappToken.balanceOf(investor)
+      ).toString();
+
+      await dappToken.approve(tokenFarm.address, balanceForWithdrawing, {
+        from: investor,
+      });
+
+      await tokenFarm.withdrawTokens({ from: investor });
+      let balance = (await dappToken.balanceOf(investor)).toString();
+      assert.equal(
+        balance,
+        tokens("0"),
+        `Investor balance of dapp tokens must be 0 but is ${tokensFormatted(
+          balance
+        )}`
+      );
+    });
+
+    it("Investor must has 1000 dai tokens", async () => {
+      let balance = (await daiToken.balanceOf(investor)).toString();
+      assert.equal(
+        balance,
+        tokens("1000"),
+        `Investor must has 1000 dai tokens but has  ${tokensFormatted(balance)}`
+      );
+    });
+
+    it("Investor is not staking at the moment", async () => {
+      expect(await tokenFarm.isStaking(investor)).to.be.false;
+    });
+
+    it("Tokens farm must has 1.000.000 dapp tokens", async () => {
+      let balance = (await dappToken.balanceOf(tokenFarm.address)).toString();
+      assert.equal(
+        balance,
+        tokens("1000000"),
+        `Token farm must has 1 million dapp tokens but has ${tokensFormatted(
+          balance
+        )}`
+      );
+    });
+
+    it("Tokens farm must has 0 dai tokens", async () => {
+      let balance = (await daiToken.balanceOf(tokenFarm.address)).toString();
+      assert.equal(
+        balance,
+        tokens("0"),
+        `Tokens farm must has 0 dai tokens but has ${tokensFormatted(balance)}`
+      );
     });
   });
 });

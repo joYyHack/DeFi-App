@@ -40,6 +40,18 @@ contract TokenFarm {
     }
   }
 
+  function withdrawTokens() public {
+    uint256 balance = stakersBalances[msg.sender];
+    require(balance > 0, "Balance must be greater than 0");
+
+    daiToken.transfer(msg.sender, balance);
+    dappToken.transferFrom(msg.sender, address(this), balance);
+
+    stakersBalances[msg.sender] = 0;
+    isStaking[msg.sender] = false;
+  }
+
+  //issue tokens
   function issueTokens() public {
     require(
       msg.sender == owner,
