@@ -1,7 +1,9 @@
 {
   "cSpell.enableFiletypes": ["solidity"],
-"editor.defaultFormatter": "esbenp.prettier-vscode",
-"cSpell.words": [
-    "stakers"
-]
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "cSpell.words": ["stakers", "webfonts"],
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true
 }
